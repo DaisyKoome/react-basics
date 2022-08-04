@@ -1,10 +1,10 @@
 import './App.css';
 
 function App() {
-    const name="Daisy";
+    const name=<h1>Daisy</h1> ;
   return (
     <div className="App">
-      <h1>{name}</h1> 
+      {name} 
     </div>
   );
 }
